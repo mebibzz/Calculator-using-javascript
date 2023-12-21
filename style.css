@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1e2c3a, #2c3e50);
+  background-image: url(https://www.wallpapertip.com/wmimgs/208-2086398_home-digital-backgrounds-for-photoshop-gallery-also.jpg);
+  
+}
+
+.calculator {
+    height: 420px;
+    width: 350px;
+    background: linear-gradient(to right, #35465b, #1f2a33); /* Darker gradients for a 3D effect */
+    border: 2px solid #1f2a33;
+    border-radius: 15px; /* Increased border radius for a smoother look */
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1); /* Modified box shadow for a more pronounced 3D effect */
+}
+
+#show {
+    width: 100%;
+    height: 65px;
+    padding: 8px;
+    font-size: 24px; /* Increased font size for the display */
+    border: none;
+    outline: none;
+    background-color: #35465b; /* Adjusted background color */
+    color: #fff; /* Text color */
+    border-bottom: 2px solid #1f2a33; /* Added border to separate the display from buttons */
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    flex: 1;
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #2e3a4e; 
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s; 
+}
+.operator {
+    flex: 1;
+    padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #2e3a4e; 
+    color: #c5e580;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s; 
+}
+
+
+.button:active {
+    background-color: #57677f; 
+}
+.operator:active {
+    background-color: #57677f; 
+}
